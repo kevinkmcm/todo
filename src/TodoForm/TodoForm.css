@@ -70,3 +70,16 @@ textarea:focus{
 .TodoForm-button--cancel{
     background: transparent;
 }
+
+body{
+    background-image:url("../assets/img/notas.jpg" );
+    background-attachment: fixed;
+    background-position: center;
+
+    
+   
+    
+    
+
+    
+}

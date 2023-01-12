@@ -5,7 +5,7 @@ import { TodoSearch } from "../TodoSearch";
 import { TodoList } from "../TodoList";
 import { CreateTodoButton } from "../CreateTodoButton";
 import { TodoItem } from "../TodoItem";
-import { useLocalStorage } from "../TodoContex/UseLocalStoraje";
+//import { useLocalStorage } from "../TodoContex/UseLocalStoraje";
 import { Modal } from "../modal";
 import {TodoForm} from '../TodoForm';
 
@@ -29,7 +29,7 @@ function AppUi(){
       
           <TodoList>
           {error && <p>pailas</p>}
-          {loading && <p>Estamos cargando</p>}
+          {loading && <p>Estamos cargando...</p>}
           {(!loading && !searchedTodos.length) && <p>Crea tu primer TODO!!!</p>}
   
   
